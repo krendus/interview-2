@@ -7,7 +7,7 @@ const Card = ({ header, snippet, link }) => {
     <div className={styles.container}>
       <div>
         <h2 data-testid="header">{header}</h2>
-        <p data-testid="snippet">{snippet}</p>
+        <p data-testid="snippet">{snippet} ...</p>
       </div>
       <div>
         <a href={link}>Use Template</a>
