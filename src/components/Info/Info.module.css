@@ -1,0 +1,14 @@
+.container {
+  height: 60px;
+  border-radius: 2px;
+  background: #fff4ea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+  width: 100%;
+  font-size: 14px;
+}
+.container img {
+  margin-right: 10px;
+}
