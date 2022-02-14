@@ -11,8 +11,7 @@ const CustomDropdown = ({ label, options, selected, setSelected }) => {
         data-testid="selected"
         className={styles.select}
         value={selected}
-        onChange={(e) => setSelected(e.target.value)}
-      >
+        onChange={(e) => setSelected(e.target.value)}>
         {options.map((val, index) => {
           return (
             <option value={val} key={index}>
